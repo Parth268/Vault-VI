@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Vault</string>
+    <string name="image">Image</string>
+    <string name="video">Video</string>
+    <string name="setting">Setting</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="addimages">This is to Create Album for Images</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:icon="@drawable/imageicon"
+        android:title="@string/image"
+        android:id="@+id/image_icon"
+        />
+    <item android:icon="@drawable/video_icon"
+        android:title="@string/video"
+        android:id="@+id/video_icon"
+        />
+    <item android:icon="@drawable/setting_icon"
+        android:title="@string/setting"
+        android:id="@+id/setting_icon"
+        />
+
+
+</menu>

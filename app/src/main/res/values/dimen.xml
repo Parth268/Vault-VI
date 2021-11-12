@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="inflate_cardView_margin">10dp</dimen>
+    <dimen name="card_View_size_height">120dp</dimen>
+    <dimen name="card_View_size_width">130dp</dimen>
+</resources>
