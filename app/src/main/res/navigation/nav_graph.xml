@@ -9,19 +9,15 @@
         android:id="@+id/imageFragment"
         android:name="com.session.vault.storeImage.ImageAlbumFragment"
         android:label="fragment_image"
-        tools:layout="@layout/fragment_image" >
-        <action
-            android:id="@+id/action_imageFragment_to_videoFragment"
-            app:destination="@id/videoFragment" />
+        tools:layout="@layout/fragment_image">
+
     </fragment>
     <fragment
         android:id="@+id/videoFragment"
         android:name="com.session.vault.storeVideo.VideoFragment"
         android:label="fragment_video"
-        tools:layout="@layout/fragment_video" >
-        <action
-            android:id="@+id/action_videoFragment_to_settingFragment"
-            app:destination="@id/settingFragment" />
+        tools:layout="@layout/fragment_video">
+
     </fragment>
     <fragment
         android:id="@+id/settingFragment"

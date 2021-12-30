@@ -38,15 +38,15 @@ class ImageAlbumListAdapter(private var imageObject:ArrayList<ImageAlbum>, priva
     }
 
     override fun onBindViewHolder(holder:Holder, position: Int) {
-        clickListener.onItemClickListener(position)
+        //clickListener.onItemClickListener(position)
         holder.itemBind(imageObject[position])
     }
 
-    interface setItemClickListener{
-        fun onItemClickListener(position: Int)
-    }
 
     override fun getItemCount(): Int {
         return imageObject.size
     }
+}
+ interface setItemClickListener{
+    fun onItemClickListener(position: Int)
 }

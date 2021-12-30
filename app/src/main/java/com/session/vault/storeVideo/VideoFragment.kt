@@ -32,7 +32,7 @@ class VideoFragment : Fragment() {
         videoAlbumListAdapter = VideoAlbumListAdapter(videoAlbumObject,requireContext())
         val adapter=videoAlbumListAdapter
         recycleViewVideo.setHasFixedSize(true)
-        recycleViewVideo.layoutManager = GridLayoutManager(requireContext(), 2)
+        recycleViewVideo.layoutManager = GridLayoutManager(requireContext(), 3)
         recycleViewVideo.adapter = adapter
         return view
     }

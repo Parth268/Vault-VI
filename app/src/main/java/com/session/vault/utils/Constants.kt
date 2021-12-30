@@ -1,4 +1,7 @@
 package com.session.vault.utils
 
-class Constants {
+object Constants {
+    val DIRECTORY=""
+    val ALGORITHM=""
+    val KEY=34
 }
