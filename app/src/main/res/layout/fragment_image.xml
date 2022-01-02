@@ -12,6 +12,14 @@
         android:id="@+id/recycle_view_for_images"
         />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/decrypt"
+        android:layout_gravity="end|bottom"
+        android:layout_marginRight="100dp"
+        android:text="Decrypt"/>
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/add_album_image_button"
         android:layout_width="wrap_content"
